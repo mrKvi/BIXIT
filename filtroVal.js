@@ -1,9 +1,7 @@
 /**
- * Librería para marcar valores default de elementos en formas.
- * Permite la implementación con la misma lógica id => valor en los elementos.
- * Uso: marca_radio('id_grupo', 'Valor');
- *      marca_checkb('id_grupo', 'Valor');
- *      marca_select('id_grupo', 'Valor');
+ * Librería para filtrar en tiempo real caracteres según el tipo de campo
+ * También valida campos requeridos.
+ * 
  * Autor: Edgar Orozco <eorozco@bixit.mx>
  * $Id: marcaDefaults.js,v 1.1 2004/12/20 06:14:12 eorozco Exp $
  */
