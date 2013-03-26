@@ -8,6 +8,11 @@
  * $Id: marcaDefaults.js,v 1.1 2004/12/20 06:14:12 eorozco Exp $
  */
 
+/**
+ * Marca el valor default de radio buttons
+ * @param: id Es el identificador del grupo de radios.
+ * @param: valor Es el valor que corresponde al elemento marcado por descarte
+ */
 function marca_radio(id,valor){
         if(id == '' || valor==''){
                 return false;
@@ -24,6 +29,11 @@ function marca_radio(id,valor){
         }
 }
 
+/**
+ * Marca el valor default de checkboxes
+ * @param: id Es el identificador del grupo de checks.
+ * @param: valor Es el valor que corresponde al elemento marcado por descarte
+ */
 function marca_checkb(id,valor){
         if(id == '' || valor==''){
                 return false;
@@ -40,6 +50,11 @@ function marca_checkb(id,valor){
         }
 }
 
+/**
+ * Marca el valor default de selects
+ * @param: id Es el identificador del elemento select
+ * @param: valor Es el valor que corresponde al elemento marcado por descarte
+ */
 function marca_select(ids,val){
         if(ids == '' || val==''){
                 return false;
