@@ -726,3 +726,9 @@ function poneRequerido (grupo){
 	for(i=0;i<elems.length;i++){elems[i].disabled=false;}
 	for(i=0;i<elemsS.length;i++){elemsS[i].disabled=false;}			
 }
+/**
+ * Funcion para escribir en la consola un mensaje 
+ */
+function holaMundo (msg){
+	console.log(msg);
+}
